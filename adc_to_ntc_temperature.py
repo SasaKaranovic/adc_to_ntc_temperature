@@ -206,8 +206,7 @@ class ntc_lookup_table:
                     self.steinhart_coefficients[3])
         command_line = ' '.join(sys.argv)
         str = \
-"""
-#include <stdint.h>
+"""#include <stdint.h>
 
 /* ADC to temperature lookup table.
  * github.com/bkuschak/adc_to_ntc_temperature

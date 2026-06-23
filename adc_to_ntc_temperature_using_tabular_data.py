@@ -299,8 +299,7 @@ class ntc_lookup_table:
         side = 'top' if self.thermistor_on_top else 'bottom'
         command_line = ' '.join(sys.argv)
         str = \
-"""
-#include <stdint.h>
+"""#include <stdint.h>
 
 /* ADC to temperature lookup table.
  * github.com/bkuschak/adc_to_ntc_temperature
